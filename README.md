@@ -15,5 +15,5 @@ where the parameters can be:
 distanceUnit:  "km" or "mile"
 distanceValue: any value. (not nothing!).
 
-* If the url goes into sleep mode is not used. So, if you hit the url and it response "Activating.." then re-try after 1 minute.
+* The url goes into sleep mode is not used. So, if you hit the url and it response "Activating.." then re-try after 1 minute.
 
