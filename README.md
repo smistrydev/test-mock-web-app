@@ -1,7 +1,7 @@
 test-mock-web-app
 =================
 
-A simple example of a java servlet web-application.
+A simple example of a java servlet web-application. Read wiki for more details.
 * Code has a Distance converter
 * Exposed the distance via a servlet
 * JUnit test - simple for the distance
