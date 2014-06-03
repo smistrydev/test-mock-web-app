@@ -10,7 +10,7 @@ public class DistanceTest {
 	public void testConvertKilometerToMileString() {
 		String str_kms = "100.0";
 		double miles = Distance.convertKilometerToMile(str_kms);
-		double expected = 160.934;
+		double expected = 62.137;
 		assertEquals("Failed", expected, miles, 0.001);
 	}
 
@@ -18,7 +18,7 @@ public class DistanceTest {
 	public void testConvertMileToKilometerString() {
 		String str_miles = "100.0";
 		double kms = Distance.convertMileToKilometer(str_miles);
-		double expected = 62.137;
+		double expected = 160.934;
 		assertEquals("Failed", expected, kms, 0.001);
 	}
 
@@ -26,7 +26,7 @@ public class DistanceTest {
 	public void testConvertKilometerToMileDouble() {
 		double kms = 123.456;
 		double miles = Distance.convertKilometerToMile(kms);
-		double expected = 198.683;
+		double expected = 76.712;
 		assertEquals("Failed", expected, miles, 0.001);
 	}
 
@@ -34,7 +34,7 @@ public class DistanceTest {
 	public void testConvertMileToKilometerDouble() {
 		double miles = 98.765;
 		double kms = Distance.convertMileToKilometer(miles);
-		double expected = 61.369;
+		double expected = 158.946;
 		assertEquals("Failed", expected, kms, 0.001);
 	}
 
