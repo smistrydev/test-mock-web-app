@@ -4,8 +4,9 @@
 package com.sanjay.simple.app4.distance;
 
 /**
- * @author i300716
- * 
+ * @author Sanjay Mistry
+ * @since 3rd June 2014
+ * This class is a simple converter on kilometers to mile and vice-versa.
  */
 public class Distance {
 

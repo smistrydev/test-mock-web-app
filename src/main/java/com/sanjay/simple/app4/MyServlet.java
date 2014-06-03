@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.sanjay.simple.app4.distance.Distance;
 
 /**
+ * @author Sanjay Mistry
+ * @since 3rd June 2014
  * Servlet implementation class MyServlet
  */
 public class MyServlet extends HttpServlet {
